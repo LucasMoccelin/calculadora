@@ -55,7 +55,25 @@ a {
 }
 
 .botao:hover {
-    background-color: black;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 1px 1px 2px rgb(12, 11, 11);
+}
+
+.botao_operacoes {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgba(77, 74, 74, 0.815);
+    box-shadow: 1px 1px 2px rgb(50, 50, 50);
+    border: none;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.botao_operacoes:hover {
+    background-color: rgba(31, 31, 31, 0.349);
     box-shadow: 1px 1px 2px black;
 }
 
